@@ -1,9 +1,22 @@
-const mtk = 75
+const mtk = "Tujuh puluh lima"
 const bahasaIndonesia = 90
 const bahasaInggris = 85
 const ipa = 80
 
 let rataRata = 0
+
+//Validasi
+if (mtk == "Tujuh puluh lima") {
+    console.log("Data bukan angka")
+} else if (bahasaIndonesia == "sembilan puluj") {
+    console.log("Data bukan angka")
+} else if (bahasaInggris == "delapan puluh lima") {
+    console.log("Data bukan angka")
+} else if (ipa == "delapan puluh") {
+    console.log("Data bukan angka")
+} else {
+    console.log("Data tidak disi")
+}
 
 rataRata = (mtk + bahasaIndonesia + bahasaInggris + ipa)/4
 
