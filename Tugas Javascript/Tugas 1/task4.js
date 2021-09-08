@@ -14,4 +14,13 @@ let data = {
     website: "hildegard.org",
     }
 
-    
+//Mengubah data(Spread Operator)
+ let dataBaru = {...data, name: " Dega", email:"wpandega81@gmail.com", hobby: "komputer"};
+
+ console.log(dataBaru)
+
+ //Desturcturing
+ let {street:jalan, city:kota} = data.address
+
+ console.log(jalan)
+ console.log(kota)
