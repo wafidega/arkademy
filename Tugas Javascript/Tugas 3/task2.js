@@ -14,8 +14,11 @@ const getMonth = (callback) => {
     if (error) {
         console.log(error);
     } else {
-        console.log(month.map(nilai => nilai));
+        console.log(month.map((nilai) => {
+            return nilai
+        }));
     }
 
   };
+
   getMonth(showMonth);
