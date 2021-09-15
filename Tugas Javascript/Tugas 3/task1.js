@@ -14,7 +14,7 @@ const cekHariKerja = (day) => {
     })
 }
 
-day = 'sabtu'
+day = 'senin'
 cekHariKerja(day)
 .then((result) => {
         console.log(result);
